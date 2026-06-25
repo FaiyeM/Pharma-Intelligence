@@ -32,7 +32,7 @@ export default function Copilot({ hcps, products, calls, inventory, events }: Co
     {
       id: 'msg-init',
       role: 'model',
-      text: "Hello! I am **VEEVA-AI**, your pharmaceutical execution intelligence assistant and field sales coach. I have full context of your territory roster, starter packs inventory, and call logs.\n\nHow can I help you today? I can:\n* **Draft clinical follow-up emails** for doctors highlighting head-to-head trial safety margins.\n* **Synthesize doctor profile binders** and suggest the best detailing slides.\n* **Audit your territory schedules** to highlight critical Segment A doctors neglected over 30 days.\n* **Coach you in our clinical Pitch Gym** (choose 'Pitch Gym' mode in the sidebar to roleplay pitches against skeptical doctors!).",
+      text: "Hello! I am the **Pharma Intelligence Assistant**, your pharmaceutical execution intelligence assistant and field sales coach. I have full context of your territory roster, starter packs inventory, and call logs.\n\nHow can I help you today? I can:\n* **Draft clinical follow-up emails** for doctors highlighting head-to-head trial safety margins.\n* **Synthesize doctor profile binders** and suggest the best detailing slides.\n* **Audit your territory schedules** to highlight critical Segment A doctors neglected over 30 days.\n* **Coach you in our clinical Pitch Gym** (choose 'Pitch Gym' mode in the sidebar to roleplay pitches against skeptical doctors!).",
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     }
   ]);
@@ -139,7 +139,7 @@ export default function Copilot({ hcps, products, calls, inventory, events }: Co
         setMessages(prev => [...prev, {
           id: `msg-${Date.now()}-ai-err`,
           role: 'model',
-          text: `**VEEVA-AI Service Interruption**\n\n${data.error || 'Failed to retrieve response.'}`,
+          text: `**Pharma Intelligence Service Interruption**\n\n${data.error || 'Failed to retrieve response.'}`,
           timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
         }]);
       }
@@ -433,7 +433,7 @@ export default function Copilot({ hcps, products, calls, inventory, events }: Co
         </div>
 
         <div className="text-[10px] text-slate-600 font-mono text-center">
-          VEEVA-AI v3.5 • COMPLIANT
+          PHARMA INTELLIGENCE v3.5 • COMPLIANT
         </div>
       </div>
 
@@ -445,7 +445,7 @@ export default function Copilot({ hcps, products, calls, inventory, events }: Co
           <div className="flex items-center gap-2.5">
             <div className="w-2 h-2 rounded-full bg-teal-500 animate-pulse"></div>
             <h3 className="font-bold text-sm tracking-tight">
-              {copilotMode === 'chat' ? 'VEEVA-AI Advisor Chat' : 'Clinician Objection Pitch Gym'}
+              {copilotMode === 'chat' ? 'Pharma Intelligence Advisor Chat' : 'Clinician Objection Pitch Gym'}
             </h3>
           </div>
           <span className="text-[10px] text-slate-500 font-mono">
@@ -531,7 +531,7 @@ export default function Copilot({ hcps, products, calls, inventory, events }: Co
               </p>
               <div className="text-[10px] font-mono text-slate-500 bg-slate-950 p-2.5 rounded border border-slate-800 flex items-center gap-1.5 leading-snug">
                 <CheckCircle size={12} className="text-teal-400" />
-                <span>Simulates real-world VEEVA sales coaching scripts.</span>
+                <span>Simulates real-world Pharma Intelligence sales coaching scripts.</span>
               </div>
             </div>
           )}

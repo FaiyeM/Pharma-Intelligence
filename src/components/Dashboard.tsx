@@ -108,7 +108,7 @@ export default function Dashboard({
     value: feedbackCounts[key]
   })).filter(d => d.value > 0);
 
-  // 4. Identify Actionable Territory Alerts (Smart VEEVA Insights)
+  // 4. Identify Actionable Territory Alerts (Smart Pharma Intelligence Insights)
   const alerts: { type: 'warning' | 'info' | 'success'; message: string; actionText?: string; targetTab?: string }[] = [];
   
   // Neglected high value doctor alert
@@ -344,7 +344,7 @@ export default function Dashboard({
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-teal-500"></span>
               </span>
-              <span>VEEVA-AI SMART ADVISOR</span>
+              <span>PHARMA INTELLIGENCE ADVISOR</span>
             </div>
 
             <h4 className="text-base font-bold tracking-tight">Active Rep Insights</h4>

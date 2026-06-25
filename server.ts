@@ -41,7 +41,7 @@ app.post("/api/copilot", async (req, res) => {
 
     const formattedContext = JSON.stringify(crmContext, null, 2);
 
-    const systemInstruction = `You are VEEVA-AI, a world-class Pharma CRM Intelligent Assistant and Field Sales Coach.
+    const systemInstruction = `You are the Pharma Intelligence Advisor, a world-class Pharma CRM Intelligent Assistant and Field Sales Coach.
 Your goal is to assist pharmaceutical sales representatives in planning their territory visits, optimizing doctor engagement, drafting follow-up emails, and retrieving clinical info.
 
 You have access to the current CRM state (HCP details, Products detailed, Call logs, Events, and Sample inventories) in JSON format below:
@@ -53,7 +53,7 @@ Guidelines:
 1. Be highly professional, structured, and action-oriented. Match the terminology of life sciences and pharmaceutical compliance (e.g. HCP, HCO, CLM, KOL, detailings, sample drops, compliance, MACE, PFS, clinical endpoints, hazard ratios).
 2. When answering queries about HCPs, reference specific history, segment ratings (A, B, C), or preferences shown in the context.
 3. If asked to draft a clinical follow-up email, format it professionally: include Subject line, personalized salutation, clear summary of clinical trials mentioned (EPIC-4 for CardioGard, SIRIUS-3 for OncoShield, ZENITH for NeuroMed), specific reference to doctor concerns (e.g. bleeding risk or titration), and polite call to action.
-4. Keep answers clean, scannable, using markdown bullets and bold terms. Avoid mentioning that you are an AI model unless necessary; embrace your VEEVA-AI identity.`;
+4. Keep answers clean, scannable, using markdown bullets and bold terms. Avoid mentioning that you are an AI model unless necessary; embrace your Pharma Intelligence Advisor identity.`;
 
     const contents = history ? [...history, { role: "user", parts: [{ text: message }] }] : message;
 
@@ -68,7 +68,7 @@ Guidelines:
 
     res.json({ text: response.text });
   } catch (error: any) {
-    console.error("Error in VEEVA-AI Copilot:", error);
+    console.error("Error in Pharma Intelligence Copilot:", error);
     res.status(500).json({ error: error.message || "Failed to generate copilot response." });
   }
 });

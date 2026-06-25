@@ -7,7 +7,7 @@ export interface HCP {
   address: string;
   phone: string;
   email: string;
-  segment: 'A' | 'B' | 'C'; // VEEVA-style target segmentation (A = High potential, C = Low)
+  segment: 'A' | 'B' | 'C'; // Pharma Intelligence-style target segmentation (A = High potential, C = Low)
   status: 'Target' | 'Active' | 'Inactive';
   territory: string; // e.g. Northeast-1, Northwest-2
   bestContactTime: string; // e.g. "Wednesdays 9:00 AM - 11:00 AM"

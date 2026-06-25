@@ -157,7 +157,7 @@ export default function EDetailing({ hcps, products, onAddCallLog, onNavigateToT
     onAddCallLog(log);
     setSessionActive(false);
     setActiveProduct(null);
-    alert(`eDetailing Session Complete! A certified VEEVA-CLM Call Log has been added automatically for ${targetHcp.name}.`);
+    alert(`eDetailing Session Complete! A certified Pharma Intelligence CLM Call Log has been added automatically for ${targetHcp.name}.`);
     onNavigateToTab('planner');
   };
 
@@ -223,7 +223,7 @@ export default function EDetailing({ hcps, products, onAddCallLog, onNavigateToT
             <div className="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center mx-auto shadow-sm">
               <Presentation size={28} />
             </div>
-            <h2 className="text-xl font-bold text-slate-800 tracking-tight">VEEVA CLM Media Player</h2>
+            <h2 className="text-xl font-bold text-slate-800 tracking-tight">Pharma Intelligence CLM Media Player</h2>
             <p className="text-xs text-slate-500 max-w-sm mx-auto">Select a doctor to personalize your pitch, select a clinical drug portfolio deck, and launch the presentation screen.</p>
           </div>
 
@@ -284,7 +284,7 @@ export default function EDetailing({ hcps, products, onAddCallLog, onNavigateToT
           <div id="deck-header" className="bg-slate-900 px-6 py-4 border-b border-slate-800 flex justify-between items-center shrink-0">
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-[10px] font-bold text-teal-400 font-mono uppercase tracking-widest bg-teal-500/10 px-2 py-0.5 rounded">VEEVA CLM Active</span>
+                <span className="text-[10px] font-bold text-teal-400 font-mono uppercase tracking-widest bg-teal-500/10 px-2 py-0.5 rounded">Pharma Intelligence CLM Active</span>
                 <span className="text-slate-500 text-xs font-mono">•</span>
                 <p className="text-slate-400 text-xs font-mono">Presenting to: <span className="text-slate-100 font-bold font-sans">{hcps.find(h => h.id === selectedHcpId)?.name}</span></p>
               </div>

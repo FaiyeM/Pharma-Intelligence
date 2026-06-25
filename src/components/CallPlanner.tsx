@@ -550,7 +550,7 @@ export default function CallPlanner({ hcps, products, calls, inventory, onAddCal
       )}
 
       {/* ========================================================= */}
-      {/* VISIT LOGGER / RECOM LOG past VISIT MODAL (VEEVA IR)       */}
+      {/* VISIT LOGGER / RECOM LOG past VISIT MODAL (Pharma Intelligence IR)       */}
       {/* ========================================================= */}
       {isLogModalOpen && (
         <div id="log-completed-visit-modal" className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs flex items-center justify-center z-50 p-4 overflow-y-auto">
@@ -631,7 +631,7 @@ export default function CallPlanner({ hcps, products, calls, inventory, onAddCal
                 </div>
               </div>
 
-              {/* Products Detailed (VEEVA CLM style check) */}
+              {/* Products Detailed (Pharma Intelligence CLM style check) */}
               <div className="space-y-2.5">
                 <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider font-mono border-b border-slate-100 pb-1.5">Product detailing slides presented</h4>
                 

@@ -277,7 +277,7 @@ export default function HCPDirectory({ hcps, products, calls, onAddHcp, onNaviga
                   <p className="text-xs text-teal-600 font-semibold mt-0.5">{hcp.specialty}</p>
                 </div>
 
-                {/* VEEVA Segmentation Tag */}
+                {/* Pharma Intelligence Segmentation Tag */}
                 <div className="flex flex-col items-end gap-1 shrink-0 font-mono">
                   <span className={`text-[9px] px-1.5 py-0.5 rounded font-bold border ${
                     hcp.segment === 'A' 
@@ -488,7 +488,7 @@ export default function HCPDirectory({ hcps, products, calls, onAddHcp, onNaviga
               <div className="mb-4">
                 <div className="flex items-center gap-2 text-teal-400 font-mono text-[10px] font-bold mb-1">
                   <Activity size={12} className="animate-pulse" />
-                  <span>VEEVA-AI BRIEFING SERVICE</span>
+                  <span>PHARMA INTELLIGENCE BRIEFING SERVICE</span>
                 </div>
                 <h3 className="text-lg font-bold tracking-tight">AI Tactical Brief</h3>
                 <p className="text-xs text-slate-400 mt-1">Deploy generative intelligence to build custom medical pitching outlines.</p>
