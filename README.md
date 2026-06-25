@@ -1,6 +1,6 @@
 # 💊 Pharma Intelligence (CRM & CLM)
 
-> A modern, executive-grade Life Sciences CRM and Closed Loop Marketing (CLM) environment. Styled to match leading enterprise platforms (like Veeva), it combines traditional healthcare provider rosters with real-time digital detailing slides, compliance sample tracking, roundtable events, and **Veeva-AI**—a server-side Gemini-powered coaching co-pilot.
+> A modern, executive-grade Life Sciences CRM and Closed Loop Marketing (CLM) environment. Styled to match leading enterprise platforms (like Veeva), it combines traditional healthcare provider rosters with real-time digital detailing slides, compliance sample tracking, roundtable events, and **AI**—a server-side Gemini-powered coaching co-pilot.
 
 ---
 
@@ -59,7 +59,7 @@ Below are the visual architectural wireframes of the core workspaces inside **Ph
 +-----------------------------------------------------------------------------------------+
 ```
 
-### 🧠 View 3: Veeva-AI Smart Pitch Gym & Briefing Suite
+### 🧠 View 3: AI Smart Pitch Gym & Briefing Suite
 ```text
 +-----------------------------------------------------------------------------------------+
 | [Co-pilot]  🎓 SALES OBJECTION PITCH GYM                                                 |
@@ -67,7 +67,7 @@ Below are the visual architectural wireframes of the core workspaces inside **Ph
 |  +--------------------------------------+  +-----------------------------------------+  |
 |  |  🏥 Target Healthcare Professional   |  |  💬 Real-Time Coaching Simulator        |  |
 |  |  ----------------------------------  |  |  -------------------------------------  |  |
-|  |  HCP: Dr. Aris Thorne (Cardiology)   |  |  🤖 Veeva-AI (Skeptical Doctor Mode):   |  |
+|  |  HCP: Dr. Aris Thorne (Cardiology)   |  |  🤖 AI (Skeptical Doctor Mode):   |  |
 |  |  Affiliation: Metro Medical Group   |  |  "The Entresto clinical trial is strong |  |
 |  |  Segment: A (High Volume prescriber) |  |   but our formulary remains restrictive.|  |
 |  |  Product: Entresto (Heart Failure)   |  |   How do you address price parity?"     |  |
@@ -91,7 +91,7 @@ This cinematic, step-by-step script is optimized for recording a professional de
 | Timestamp | Visual Action (What to Click) | Voiceover Narration Script |
 | :--- | :--- | :--- |
 | **0:00 - 0:12** | Start on the **Executive Dashboard**. Scroll down slightly to show the **Territory Coverage KPIs**, **Roundtable Events panel**, and the **Sample Inventory progress bars**. | *"Welcome to Pharma Intelligence—an executive-grade Life Sciences CRM and closed-loop detailing environment designed for high-performance field teams."* |
-| **0:12 - 0:25** | Click **Doctor Directory** in the sidebar. Highlight **Dr. Sarah Jenkins** (Cardiology). Click on her profile, click **"Generate Pre-Visit Briefing"** and watch Veeva-AI draft a custom clinical briefing in real-time. | *"Navigate your territory with a dynamic directory. With built-in AI, reps can instantly generate clinical pre-visit briefings containing past call history and custom detailing vectors."* |
+| **0:12 - 0:25** | Click **Doctor Directory** in the sidebar. Highlight **Dr. Sarah Jenkins** (Cardiology). Click on her profile, click **"Generate Pre-Visit Briefing"** and watch AI draft a custom clinical briefing in real-time. | *"Navigate your territory with a dynamic directory. With built-in AI, reps can instantly generate clinical pre-visit briefings containing past call history and custom detailing vectors."* |
 | **0:25 - 0:38** | Click **Digital eDetailing** in the sidebar. Select **Entresto** and **Dr. Jenkins**. Toggle the interactive dosage slider from *50mg* to *200mg*. Draw a signature in the compliance box and click **Save Log**. | *"Deliver interactive, compliant scientific detailings. Reps can present head-to-head clinical trial data directly from their device, log immediate physician feedback, and capture secure compliance signatures."* |
 | **0:38 - 0:50** | Click **Pharma Co-pilot** in the sidebar. Select **"Objection Pitch Gym"** roleplay mode. Type a response to the skeptical AI doctor, hit send, and see the clinical feedback review card appear. | *"Step into our AI Pitch Gym. Practice overcoming tough real-world objections from skeptical virtual doctors, and receive professional life-sciences coaching feedback based on therapeutic trial evidence."* |
 | **0:50 - 1:00** | Click **Sample Inventory** showing the depleted Entresto stock, then click **Roundtable Events** showing confirmed attendee RSVPs. | *"Complete with sample-drop inventory reconciliation and comprehensive roundtable event logs, this is the future of pharma relationship management. Run the live demo below!"* |
@@ -114,7 +114,7 @@ Follow these guidelines to take crisp, high-fidelity screenshots for your reposi
 *   **Screenshot 2: Interactive Detailing Tablet**
     *   *Path:* Digital eDetailing Tab
     *   *Action:* Toggle the dosing switch and write a signature in the box. Capture the entire layout including the custom line charts.
-*   **Screenshot 3: Veeva-AI Pitch Gym Dialogue**
+*   **Screenshot 3: AI Pitch Gym Dialogue**
     *   *Path:* Pharma Co-pilot Tab
     *   *Action:* Run a quick pre-visit briefing query. Capture the generated markdown highlighting therapeutic terms and compliance benchmarks.
 
