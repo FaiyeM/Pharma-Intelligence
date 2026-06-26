@@ -1,6 +1,6 @@
 # Pharma Intelligence
 
-Pharma Intelligence is a premium, high-fidelity pharmaceutical Customer Relationship Management (CRM) and Closed Loop Marketing (CLM) application. Designed for life sciences and field sales representatives, it provides a comprehensive suite of tools to plan territory visits, deliver interactive clinical presentations, track sample compliance, manage local medical events, and practice clinical pitches.
+Pharma Intelligence is a Customer Relationship Management (CRM) and Closed Loop Marketing (CLM) application. Designed for life sciences and field sales representatives, it provides a comprehensive suite of tools to plan territory visits, deliver interactive clinical presentations, track sample compliance, manage local medical events, and practice clinical pitches.
 
 ---
 
